@@ -13,11 +13,11 @@ namespace Venue_2_2
         }
     }
 
-    class Venue
+    public class Venue
     {
-        string Name;
+       public string Name;
 
-        void Announce()
+        public void Announce()
         {
             Console.WriteLine(Name + " will have several bands playing tonight!");
         }
