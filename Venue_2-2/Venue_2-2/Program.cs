@@ -10,17 +10,10 @@ namespace Venue_2_2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What is the name of your venue?");
+            Venue venue = new Venue();
+            venue.Name = "The Jazz Hut";
+            venue.Announce();
         }
     }
-
-    public class Venue
-    {
-       public string Name;
-
-        public void Announce()
-        {
-            Console.WriteLine(Name + " will have several bands playing tonight!");
-        }
-    }
-
 }
